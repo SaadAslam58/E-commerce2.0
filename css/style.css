@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(232, 111, 18);
+}
+header {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+nav {
+  display: flex;
+  background-color: rgb(23, 23, 204);
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+nav ul li {
+  display: inline-flex;
+}
+nav ul li a {
+  text-decoration: none;
+  color: antiquewhite;
+  margin: 15px 30px;
+  font-weight: 900;
+}
+nav h1 {
+  padding: 15px 20px 0 9px;
+  color: antiquewhite;
+}
+.search {
+  display: flex;
+  justify-content: center;
+}
+.search input {
+  margin-top: 18px;
+  height: 22px;
+  align-items: center;
+  width: 30vw;
+  border-radius: 15px;
+  margin-left: 40px;
+  padding: 0 10px;
+  border: 2px solid black;
+}
+.search button {
+  background-color: rgb(255, 111, 0);
+  color: antiquewhite;
+  border-radius: 22px;
+  padding: 5px 6px;
+  margin: 18px 5px;
+  align-items: center;
+  cursor: pointer;
+  border: 2px solid black;
+}
+.search button:hover {
+  font-weight: bold;
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://picsum.photos/1100);
+  border-radius: 8px;
+  height: 400px;
+  background-size: cover;
+  margin: 10px 50px;
+  border: 1px solid black;
+}
+.background h1 {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 50px;
+  padding: 5px;
+  border-radius: 8px;
+}
+.contaier {
+  height: min-content (100vh - 8vh);
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  width: 97vw;
+  margin: 39px auto;
+}
+.cards {
+  display: flex;
+  background-color: rgba(210, 96, 20, 0.808);
+  border-radius: 25px;
+  border: 1px solid black;
+}
+.cards-item {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 12vw;
+  margin: 10px 40px;
+}
+.cards-item img {
+  border-radius: 8px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.cards-item h3 {
+  font-family: "Poppins", sans-serif;
+  /* font-weight: 199;  */
+  font-style: normal;
+  margin-left: 45px;
+  color: black;
+  cursor: pointer;
+}
+.cards-item span {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  font-weight: 299px;
+  font-style: normal;
+  margin-left: 45px;
+  color: black;
+}
+
+footer {
+  height: 8vh;
+  background-color:rgb(23, 23, 204);
+  /* padding: 20px; */
+  /* font-size: 15px; */
+  color:antiquewhite;
+  font-size: 20px;
+}

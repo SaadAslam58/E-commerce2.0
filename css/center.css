@@ -1,0 +1,17 @@
+.center {
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+.m-2 {
+  margin: 10px 0;
+  text-decoration: underline;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.flex-all-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
