@@ -68,9 +68,10 @@ nav h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(https://picsum.photos/1100);
+  background-image: url(../logo/logo4.jpg);
+  background-size: cover;
   border-radius: 8px;
-  height: 400px;
+  height: 300px;
   background-size: cover;
   margin: 10px 50px;
   border: 1px solid black;
